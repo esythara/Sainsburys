@@ -1,0 +1,365 @@
+body {
+    
+    margin: 0px;
+    padding: 0px;   
+    background-color: #F2F2F2;
+    
+}
+
+
+#drop-down {
+    
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 1;
+    z-index: 10000;
+    
+}
+
+
+#welcome-text {
+    
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 315;
+    color: #F06C00;
+    font-size: 80px;
+
+}
+
+#welcome-text .one, #welcome-text .two, #welcome-text .three, #welcome-text .four, #welcome-text .five, #welcome-text .six {
+    
+    display: none;
+    
+}
+
+#first-section {
+    
+    background-color: white;
+    height: 133px;
+    border: 0px solid;
+    border-bottom: 3px solid #F06C00;
+    position: relative;
+    z-index: 1000;
+    
+    
+    
+}
+
+#middle-section {
+    
+    position:absolute;
+    transform: translate(13%, 0);
+    width: 75%;
+   
+    
+    
+}
+
+#top-line-section {
+    
+    margin-top: 20px;
+    
+}
+
+#top-line-section span {
+    
+    float: right;
+    padding: 0px 10px;
+    
+}
+
+#bottom-line-section span {
+    
+    padding: 0px 10px;
+    
+}
+
+
+#Groceries-pop-out {
+    
+    display: none;
+    border: 0px solid;
+    border-bottom: 3px solid #F06C00;
+    width: 1200px;
+    height: 160px;
+    margin-left: 13px;
+    margin-top: 11px;
+    color: #494949;
+    background-color: white;
+    position: absolute;
+    z-index: 1000 !important;
+    
+}
+
+#Food-to-order-pop-out {
+    
+    display: none;
+    border: 0px solid;
+    border-bottom: 3px solid #F06C00;
+    width: 1200px;
+    height: 160px;
+    margin-left: 13px;
+    margin-top: 11px;
+    color: #494949;
+    background-color: white;
+    position: absolute;
+    z-index: 1000 !important;
+    
+}
+
+#Bank-pop-out {
+    
+    display: none;
+    border: 0px solid;
+    border-bottom: 3px solid #F06C00;
+    width: 1200px;
+    height: 160px;
+    margin-left: 13px;
+    margin-top: 11px;
+    color: #494949;
+    background-color: white;
+    position: absolute;
+    z-index: 1000 !important;
+    
+    
+}
+
+#Tu-pop-out {
+    
+    display: none;
+    border: 0px solid;
+    border-bottom: 3px solid #F06C00;
+    width: 1200px;
+    height: 160px;
+    margin-left: 13px;
+    margin-top: 11px;
+    color: #494949;
+    background-color: white;
+    position: absolute;
+    z-index: 1000 !important;
+    
+
+}
+
+#Argos-pop-out {
+    
+    display: none;
+    border: 0px solid;
+    border-bottom: 3px solid #F06C00;
+    width: 1200px;
+    height: 160px;
+    margin-left: 13px;
+    margin-top: 11px;
+    color: #494949;
+    background-color: white;
+    position: absolute;
+    z-index: 1000 !important;
+    
+}
+
+#Log-in-pop-out {
+    
+    display: none;
+    border: 0px solid;
+    box-shadow: 5px 3px 8px #888888;
+    width: 200;
+    height: 250px;
+    margin-left: 960px;
+    margin-top: -65px;
+    color: #494949;
+    background-color: white;
+    position: absolute;
+    z-index: 1000 !important;
+    
+}
+
+ul li {
+
+    list-style-type: none;
+	padding-left: 0;
+	font-size: 13px;
+    color: #494949;
+    margin-top: 10px;
+    margin-left: 42px;
+    
+}
+
+#form {
+    
+    margin-left: 900px;
+    margin-top: -20px;
+    border: none;
+    
+    
+}
+
+#form select {
+    
+    border: none;
+    font-size: 1em;
+    text-align: right;
+}
+
+#form select options {
+    
+    text-align: right;
+    
+}
+
+#form-groceries {
+    
+    margin-left: 900px;
+    margin-top: -20px;
+    border: none;    
+    
+}
+
+#form-groceries #search-bar {
+    
+    margin-left: 106px;
+    margin-top: -30px;
+    border: none;
+    border-left: 1px solid grey;
+    padding: 10px 5px;
+    display: inline-block;
+    
+}
+
+#form-groceries #button-bar {
+    
+    height: 50px;
+    line-height: 0;
+    min-width: 53px;
+    width: 53px;
+    background-color: #F06C00;
+    border: none;
+    color: white;
+    font-size: 5px;
+    margin-left: 277;
+    margin-top: -44;
+    
+}
+
+#form-groceries select {
+    
+    border: none;
+    font-size: 1em;
+    text-align: right;
+    display: inline-block;
+}
+
+#form-groceries select options {
+    
+    text-align: right;
+    
+}
+
+#second-section {
+    
+    background-color: white;
+    position: relative;
+    width: 1200px;
+    height: 360px;
+    top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+       
+    
+}
+
+#second-section .text {
+    
+    position: relative;
+    z-index: 2;
+    font-family: Arial;
+    color: #494949;
+    top: 100px;
+    left: 50px;
+    
+}
+
+#second-section .logo {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+    
+}
+
+#second-section-images {
+    
+    position: relative;
+    margin: 50px 161px 50px;
+    
+}
+
+.banner {
+    
+    width: 100%;
+    font-family: Arial;
+    color: #494949;
+    font-size: 1em;
+    
+}
+
+#logo {
+    
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    
+}
+
+a:-webkit-any-link {
+    
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    
+    color: #F06C00;
+    text-decoration: none;
+    cursor: pointer;
+    
+    
+}
+
+#log-in:hover {
+    
+    color: #F06C00;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#Log-in-pop-out ul li:hover {
+    
+    color: #F06C00;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+#Log-in-pop-out ul li {
+    
+    margin-bottom: 25px;
+    text-align: right;
+    margin-right: 9px;
+    
+}
+
+// good luck me //
